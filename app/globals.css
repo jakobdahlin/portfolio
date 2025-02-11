@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --background: #171717;
   --foreground: #171717;
@@ -96,3 +97,5 @@ h3 {
   color: green; /* Customize the color */
   margin-right: 8px; /* Optional: Add spacing */
 }
+
+@import '@fontsource-variable/kumbh-sans/variable.css'
