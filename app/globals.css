@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #171717;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #161616;
+    --foreground: #171717;
+  }
+}
+
+@font-face {
+  font-family: 'Kumbh Sans Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(@fontsource-variable/kumbh-sans/files/kumbh-sans-latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+  html, body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    font-family: 'Kumbh Sans Variable', sans-serif;
+    background: radial-gradient(circle at top, #414141, #212121, #0c0c0c);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+    color: #717171;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background-color: #6d6d6d; /* Custom background color */
+  color: #ffffff; /* Custom text color */
+}
+
+h1 {
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: gray;
+}
+
+@property --border-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+/* SLIDER */
+
+.slidermain {
+  margin: 10px;
+}
+
+.slidermain .container {
+  background-color: blue;
+  padding: 40px 0;
+}
+
+.slidermain .container img {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.checkmark::before {
+  content: "\2713"; /* Unicode equivalent of &#10003; */
+  font-size: 16px; /* Adjust size if needed */
+  color: green; /* Customize the color */
+  margin-right: 8px; /* Optional: Add spacing */
+}

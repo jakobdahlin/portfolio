@@ -1,0 +1,28 @@
+.carousel {
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+  }
+  
+  .logosslide {
+    display: flex; /* Keep images in one row */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    animation: slide 20s linear infinite; /* Adjust duration for speed */
+    width: calc(200%); /* Twice the width for seamless duplication */
+  }
+  
+  .carouselimg {
+    height: 50px; /* Set consistent image height */
+    margin: 0 20px; /* Add spacing between images */
+    object-fit: contain; /* Prevent image distortion */
+  }
+  
+  /* Smooth infinite animation */
+  @keyframes slide {
+    from {
+      transform: translateX(0); /* Start at the beginning */
+    }
+    to {
+      transform: translateX(-50%); /* Scroll by half of the duplicated width */
+    }
+  }
+  
