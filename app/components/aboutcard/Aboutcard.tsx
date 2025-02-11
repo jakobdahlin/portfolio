@@ -33,16 +33,20 @@ const Aboutcard: React.FC<CardProps> = ({ className }) => {
       Renowned architectural photographer in New York City
     </h2>
     <p className="text-neutral-500 text-left pb-2">
-      Jakob's expertise extends beyond digital design into the world of architectural photography, 
-      where he has earned wide recognition for his work in New York City and beyond. 
-      He specializes in both residential and commercial real estate, bringing buildings to 
-      life through his unique perspective.
+    Jakob's talent isn't just limited to digital design; he's also 
+    made a name for himself in architectural photography. His work 
+    has gained a lot of recognition, especially in New York City, 
+    though his reach goes well beyond that. He's known for capturing 
+    both residential and commercial real estate, giving buildings a new 
+    sense of life and personality through his creative eye.
     </p>
     <p className="text-neutral-500 text-left pb-2">
-      His portfolio includes iconic buildings like the Woolworth Building, Empire State Building, 
-      Four Seasons Private Residences, The Textile Building, and The News Building. 
-      Jakob's ability to highlight the architectural details and grandeur of these buildings 
-      has garnered acclaim in New York, Los Angeles, and Stockholm, Sweden.
+    His portfolio is packed with iconic landmarks like the Woolworth Building, 
+    Empire State Building, Four Seasons Private Residences, 
+    The Textile Building, and The News Building. People in cities like New York, 
+    Los Angeles, and Stockholm have praised his skill in showcasing the grandeur 
+    and intricate details of these structures. It's that ability to blend 
+    artistry and architecture that really sets him apart.
     </p>
   </div>
 
@@ -55,13 +59,15 @@ const Aboutcard: React.FC<CardProps> = ({ className }) => {
       Featured on Million Dollar Listing: New York
     </h2>
     <p className="text-neutral-500 text-left pb-2">
-    Jakob's talent as an architectural photographer gained further recognition after being 
-    featured on Million Dollar Listing: New York. This spotlight led to collaborations with 
-    leading brands in the real estate industry and global exposure for his work.
+    Jakob's reputation as an architectural photographer took off even more after 
+    his work was featured on Million Dollar Listing: New York. 
+    That exposure opened doors to collaborations with top real estate brands 
+    and gave his work global visibility.
     </p>
     <p className="text-neutral-500 text-left pb-2">
-    His photography has even been showcased by international retailer like IKEA, solidifying 
-    his reputation as a sought-after architectural photographer.
+    His talent has even caught the eye of major international companies like IKEA, 
+    who have showcased his photography. This kind of recognition has cemented his 
+    status as one of the go-to names in architectural photography.
     </p>
   </div>
 
@@ -75,9 +81,11 @@ const Aboutcard: React.FC<CardProps> = ({ className }) => {
       Jakob Dahlin and design
     </h2>
     <p className="text-neutral-500 text-left pb-2">
-    Jakob Dahlin combines his skills in architectural photography with a passion for UI/UX design, 
-    graphic design, and web design. He is constantly exploring new tools, applications, and 
-    coding languages to expand his expertise and stay at the forefront of these fields.
+    Jakob Dahlin brings together his talent for architectural photography with a 
+    strong passion for UI/UX, graphic, and web design. He's always pushing 
+    himself to learn, experimenting with new tools, apps, and coding languages 
+    to stay ahead in these ever-changing fields. For him, it's all about growth 
+    and staying on top of his game.
     </p>
   </div>
 
@@ -91,11 +99,16 @@ const Aboutcard: React.FC<CardProps> = ({ className }) => {
   Connecting UI/UX, graphic design, and web design
     </h2>
     <p className="text-neutral-500 text-left pb-2">
-    Jakob is deeply invested in creating user-friendly, visually engaging websites that merge 
-    functionality with aesthetics. His background in graphic design builds on his ability to 
-    create interfaces that are not only intuitive but also simple but impactful. 
-    Brand and User research is crucial in order to create a product, or whatever it might be, 
-    that aligns with the brand but also speaks to its user.
+    Jakob is all about crafting websites that are both user-friendly and visually 
+    captivating, striking a balance between functionality and aesthetics. 
+    His graphic design background gives him the edge to design interfaces 
+    that feel simple yet leave a lasting impression.
+    </p>
+    <p className="text-neutral-500 text-left pb-2">
+    For him, brand and user research are key. He believes that to create a successful 
+    product—whether it's a site or something else—it needs to align with the brand's 
+    identity while also truly resonating with its users. That attention to both form 
+    and function is what makes his work stand out.
     </p>
   </div>
 
@@ -109,13 +122,16 @@ const Aboutcard: React.FC<CardProps> = ({ className }) => {
   Always learning and evolving
     </h2>
     <p className="text-neutral-500 text-left pb-2">
-    Jakob is driven by a constant desire to learn, whether it's mastering a new design tool, 
-    experimenting with the latest applications, or diving into coding languages. 
-    He approaches challenges with a "yes" mindset, always willing to give things a 
-    shot and potentially learn something along the way. This dedication to growth enables 
-    him to deliver creative, forward-thinking solutions that meet the demands of 
-    both clients and audiences.
+    Jakob is fueled by a nonstop drive to learn. Whether it's picking up a new 
+    design tool, testing out the latest apps, or exploring different coding languages, 
+    he's always up for a challenge. He approaches problems with a "why not?" attitude, 
+    ready to try new things and learn from the experience.
     </p>
+    <p className="text-neutral-500 text-left pb-2">
+    This commitment to growth allows him to consistently deliver fresh, innovative 
+    solutions that meet the needs of both his clients and their audiences. For Jakob, 
+    it's all about staying ahead of the curve and pushing creative boundaries.
+</p>
   </div>
 
 </div>
