@@ -12,26 +12,23 @@ interface CalculatorProps {
       return !lastNumber?.includes(".");
     };
   
-    // Handles button clicks, including the percentage logic
     const handleButtonClick = (value: string) => {
       if (value === "AC") {
-        setDisplay(""); // Reset display
+        setDisplay("");
       } else if (value === "=") {
         try {
-          // Handle percentages
+
           let processedDisplay = display.replace(/(\d+(\.\d+)?)%/g, (match, p1) => {
-            // Replace percentage (%) with its decimal equivalent, e.g., 50% -> *0.50
             return `*${parseFloat(p1) / 100}`;
           });
   
-          // Evaluate the expression
-          const result = eval(processedDisplay); // Safely evaluate the processed expression
+          const result = eval(processedDisplay);
           setDisplay(result.toString());
         } catch (error) {
-          setDisplay("Error"); // Handle errors
+          setDisplay("Error");
         }
       } else {
-        setDisplay((prevDisplay) => prevDisplay + value); // Append value to display
+        setDisplay((prevDisplay) => prevDisplay + value);
       }
     };
   
@@ -48,7 +45,6 @@ interface CalculatorProps {
 
     <div className={`text-white ${className}`}>
       <div className="rounded-lg w-full sm:w-76 md:w-96 p-2">
-        {/*Display Field */}
         <div
   className="relative rounded-full p-4 h-[72px] text-right mb-4 text-lg bg-neutral-800 overflow-hidden group transition-transform duration-100 transform shadow-[0px_10px_15px_rgba(0,0,0,0.2)] col-span-2"
   onClick={() => ("0")}
@@ -63,7 +59,6 @@ interface CalculatorProps {
   <span className="relative z-10 text-white text-2xl mt-1 flex justify-end items-start">{display}</span>
 </div>
 
-        {/* Buttons */}
         <div className="grid grid-cols-4 gap-4 text-center">
           <button
                         className="relative cursor-pointer rounded-xl col-span-2 p-4 text-lg bg-neutral-800 hover:text-neutral-300 active:text-white overflow-hidden group transition-transform duration-100 transform hover:scale-95 shadow-[0px_10px_15px_rgba(0,0,0,0.3)] hover:shadow-[0px_5px_8px_rgba(0,0,0,0.3)] active:shadow-[0px_0px_2px_rgba(0,0,0,0.3)]"

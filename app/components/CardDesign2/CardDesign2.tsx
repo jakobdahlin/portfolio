@@ -5,10 +5,8 @@ const CardDesign1: FC = () => {
   return (
 <div className="max-w-md w-full h-full rounded-3xl overflow-hidden shadow-xl shadow-black/30
 bg-gradient-to-bl from-blue-600 to-teal-200 mb-2 mx-4">
-      {/* Header Section */}
       <h2 className="text-center text-white font-bold text-2xl mt-6">SUBSCRIPTION</h2>
 
-      {/* Price Circle */}
       <div className="relative flex items-center justify-center my-6">
         <div className="w-52 h-52 bg-white/10 rounded-full shadow-2xl shadow-black/20 
         border-2 border-white/20 relative flex items-center justify-center">
@@ -17,7 +15,6 @@ bg-gradient-to-bl from-blue-600 to-teal-200 mb-2 mx-4">
         </div>
       </div>
 
-      {/* Feature List */}
       <div className="px-6 text-white text-center text-sm space-y-4">
   <div className="flex items-center justify-center">
     <div className="flex items-center max-w-xs w-full hover:scale-110 duration-300 transform">
@@ -39,10 +36,8 @@ bg-gradient-to-bl from-blue-600 to-teal-200 mb-2 mx-4">
   </div>
 </div>
 
-      {/* Subscribe Button */}
 
 <div className="flex items-center justify-between mt-6">
-  {/* Left Column: Reserve Button */}
   <button className="bg-white/20 pointer shadow-xl shadow-black/20 text-white 
   font-bold border-white/20 border-2
   hover:bg-white/30 active:bg-white/50 

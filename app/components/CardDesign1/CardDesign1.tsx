@@ -4,7 +4,6 @@ import { Heart, StarHalf, Bath, BedDouble, User} from 'lucide-react';
 const CardDesign1: FC = () => {
   return (
 <div className="max-w-md rounded-3xl overflow-hidden bg-white mb-2 mx-2 shadow-xl shadow-black/30">
-      {/* Image Section */}
       <div className="relative">
         <img
           src="https://i.ibb.co/c0qkvpK/LDMANSION.jpg"
@@ -16,7 +15,6 @@ const CardDesign1: FC = () => {
         </span>
       </div>
 
-      {/* Content Section */}
       <div className="p-5 text-left">
       <div className="flex items-center justify-between">
           <h3 className="text-xl font-bold text-neutral-900 mb-1">The Modern Beverly</h3>
@@ -24,7 +22,6 @@ const CardDesign1: FC = () => {
         </div>
         <p className="text-neutral-600 text-md mb-2">Beverly Hills, California</p>
 
-        {/* Icon Info Section */}
         <div className="flex justify-left items-center mb-2">
         <User className="w-6 h-6 pointer text-sm text-neutral-950" />
           <div className="pl-2 text-sm text-neutral-500 pr-2">8 Guests</div>
@@ -52,9 +49,8 @@ const CardDesign1: FC = () => {
         </div>
         <p className="text-neutral-600 text-sm">The garage easily fits four cars</p>
 
-        {/* Action Buttons */}
         <div className="flex items-center justify-between mt-6">
-  {/* Left Column: Reserve Button */}
+
   <button className="bg-neutral-800 pointer shadow-lg shadow-neutral-600 text-white 
   px-14 py-3 rounded-2xl duration-100 transform
   hover:bg-neutral-700 hover:shadow-md hover:shadow-neutral-600 hover:scale-95 
@@ -62,7 +58,6 @@ const CardDesign1: FC = () => {
     Reserve
   </button>
 
-  {/* Right Column: Price and Date */}
   <div className="flex flex-col items-end">
     <div className="text-neutral-900 text-lg underline font-bold">$11,300</div>
     <div className="text-xs text-sky-400">May 10 - 17</div>

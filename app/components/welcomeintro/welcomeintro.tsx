@@ -5,7 +5,7 @@ import Backgroundcard from '../backgroundcard/backgroundcard';
 import Contactbutton from '../contactbutton/contactbutton';
 
 interface CardProps {
-    className?: string; // Optional className prop for custom styles
+    className?: string;
   }
 
 const Welcomecard: React.FC<CardProps> = ({ className }) => {

@@ -11,20 +11,18 @@ const Navbar = () => {
   };
 
   const closeMenu = () => {
-    setIsOpen(false); // Close the menu
+    setIsOpen(false);
   };
 
   return (
     <nav className="w-full max-w-screen-lg mx-auto px-8 mt-5 mb-4">
       <div className="flex items-center justify-between mx-auto max-w-screen-lg">
-        {/* Mobile Logo */}
         <a href="/">
         <div className="sm:hidden flex items-center">
           <img src="/logos/JDIDWi.png" alt="Logo" className="h-8" />
         </div>
         </a>
 
-        {/* Desktop Links Left */} 
         <div className="hidden sm:flex items-center gap-32 flex-1">
           <Link href="/about" className="text-white hover:text-neutral-500">
             About
@@ -34,14 +32,12 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Desktop Logo */}
         <a href="/">
           <div className="hidden sm:flex items-center transform duration-200 hover:rotate-12 justify-center cursor-pointer">
             <img src="/logos/JDIDWi.png" alt="Logo" className="h-8" />
           </div>
         </a>
 
-        {/* Desktop Links Right */}
         <div className="hidden sm:flex items-center gap-32 flex-1 justify-end">
           <Link href="/graphicdesign" className="text-white hover:text-neutral-500">
             Graphic Design
@@ -51,7 +47,6 @@ const Navbar = () => {
           </Link>
         </div>
 
-        {/* Hamburger Menu for Mobile */}
         <div className="sm:hidden">
           <button
             onClick={toggleMenu}
@@ -86,7 +81,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="sm:hidden text-center">
           <div className="flex flex-col items-start gap-6 p-4 text-white">

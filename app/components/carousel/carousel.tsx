@@ -18,9 +18,8 @@ const Carousel: React.FC = () => {
 
   const scrollingItems = [...items, ...items];
   const containerRef = useRef<HTMLDivElement>(null);
-  const scrollSpeed = 0.5; // Adjust scroll speed
+  const scrollSpeed = 0.5;
 
-  // Map specific image heights
   const customHeights: { [key: string]: string } = {
     Pixl: "60px",
     Orion: "65px",
@@ -56,9 +55,8 @@ const Carousel: React.FC = () => {
         style={{ width: "max-content" }}
       >
         {scrollingItems.map((url, index) => {
-          // Extract the image name
           const imageName = url.split("/").pop()?.split(".")[0] || "";
-          const imageHeight = customHeights[imageName] || "50px"; // Default height: 50px
+          const imageHeight = customHeights[imageName] || "50px";
 
           return (
             
@@ -71,7 +69,7 @@ const Carousel: React.FC = () => {
                 src={url}
                 alt={`Logo ${index + 1}`}
                 style={{
-                  height: imageHeight, // Dynamic height
+                  height: imageHeight,
                   width: "auto",
                 }}
                 className="object-contain"

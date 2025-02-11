@@ -5,8 +5,8 @@ import '@fontsource/kumbh-sans/400.css';
 import '@fontsource/kumbh-sans/700.css';
 
 interface CardProps {
-    className?: string; // Optional className prop for custom styles
-    children?: ReactNode; // Allows passing children
+    className?: string;
+    children?: ReactNode;
   }
 
   const Designbuttons: React.FC<CardProps> = ({ className, children }) => {
@@ -23,7 +23,7 @@ interface CardProps {
       shadow-[0px_10px_15px_rgba(0,0,0,0.3)]
       hover:shadow-[0px_5px_8px_rgba(0,0,0,0.3)]
       active:shadow-[0px_0px_2px_rgba(0,0,0,0.3)]">
-        {/* Gradient Border */}
+
         <div
           style={{
             background: `
@@ -41,11 +41,11 @@ interface CardProps {
           group-hover:bg-[linear-gradient(145deg,_rgba(0,255,0,0.8),_rgba(255,0,0,0.8),_rgba(0,0,255,0.8))]
           "
         />
-        {/* Neutral Foreground */}
+
         <div className="absolute inset-[1px] bg-neutral-800  pointer-events-none 
             transition-shadow duration-100 z-10 animate-slowPulse
       " />
-        {/* Button Content */}
+
         <span className="relative z-10">JakobDahlin</span>
       </button>
 
@@ -58,7 +58,7 @@ interface CardProps {
       shadow-[0px_10px_15px_rgba(0,0,0,0.3)]
       hover:shadow-[0px_5px_8px_rgba(0,0,0,0.3)]
       active:shadow-[0px_0px_2px_rgba(0,0,0,0.3)]">
-        {/* Gradient Border */}
+
         <div
           style={{
             background: `
@@ -76,11 +76,9 @@ interface CardProps {
           group-hover:bg-[linear-gradient(90deg,_rgba(0,255,0,0.8),_rgba(255,0,0,0.8),_rgba(0,0,255,0.8))]
           "
         />
-        {/* Neutral Foreground */}
         <div className="absolute inset-[1px] bg-neutral-800 rounded-xl pointer-events-none 
             transition-shadow duration-100 z-10 animate-slowPulse
       " />
-        {/* Button Content */}
         <span className="relative z-10">JakobDahlin</span>
       </button>
 
@@ -92,7 +90,7 @@ interface CardProps {
       shadow-[0px_10px_15px_rgba(0,0,0,0.3)]
       hover:shadow-[0px_5px_8px_rgba(0,0,0,0.3)]
       active:shadow-[0px_0px_2px_rgba(0,0,0,0.3)]">
-        {/* Gradient Border */}
+
         <div
           style={{
             background: `
@@ -110,11 +108,9 @@ interface CardProps {
           group-hover:bg-[linear-gradient(90deg,_rgba(0,255,0,0.8),_rgba(255,0,0,0.8),_rgba(0,0,255,0.8))]
           "
         />
-        {/* Neutral Foreground */}
         <div className="absolute inset-[1px] bg-neutral-800 rounded-full pointer-events-none 
             transition-shadow duration-100 z-10 animate-slowPulse
       " />
-        {/* Button Content */}
         <span className="relative z-10">JakobDahlin</span>
       </button>
 

@@ -27,9 +27,7 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
     return (
         <Backgroundcard>
         <div className="container mx-auto z-10">
-          {/* Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-4">
-            {/* ROLLING LOGOS */}
             <div className="py-2 px-3 col-span-12 lg:col-span-12 border-neutral-700 border 
   lg:rounded-2xl md:rounded-2xl transition-all duration-300 shadow-neutral-900 
   md:hover:border-neutral-500 md:hover:shadow-lg lg:hover:border-neutral-500 
@@ -42,7 +40,7 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
   </div>
 </div>
       
-            {/* BUTTONS 2/3 */}
+            {/* Business Cards */}
             <div className="col-span-12 lg:col-span-8 p-3 border-neutral-700 border md:rounded-2xl 
             transition-all duration-300 shadow-neutral-900 md:hover:border-neutral-500 md:hover:shadow-lg lg:hover:border-neutral-500 
             lg:hover:shadow-lg rounded-2xl lg:rounded-2xl flex flex-col items-center gap-4">
@@ -59,7 +57,7 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
               </div>
             </div>
       
-            {/* TYPOGRAPHY 1/3 */}
+            {/* Letterheads */}
             <div className="col-span-12 lg:col-span-4 p-3 border-neutral-700 border lg:rounded-2xl md:rounded-2xl 
             transition-all duration-300 shadow-neutral-900 md:hover:border-neutral-500 md:hover:shadow-lg lg:hover:border-neutral-500 
             lg:hover:shadow-lg rounded-2xl flex flex-col items-center gap-4">
@@ -70,7 +68,7 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
               </div>
             </div>
       
-            {/* ENVELOPES */}
+            {/* Envelopes */}
             <div className="col-span-12 lg:col-span-4 p-3 border-neutral-700 border lg:rounded-2xl md:rounded-2xl 
             transition-all duration-300 shadow-neutral-900 md:hover:border-neutral-500 md:hover:shadow-lg lg:hover:border-neutral-500 
             lg:hover:shadow-lg rounded-2xl flex flex-col items-center gap-4">
@@ -84,7 +82,7 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
               </div>
             </div>
 
-            {/* OTHER CONTENT */}
+            {/* Menues */}
             <div className="col-span-12 lg:col-span-4 p-3 border-neutral-700 border lg:rounded-2xl md:rounded-2xl 
             transition-all duration-300 shadow-neutral-900 md:hover:border-neutral-500 md:hover:shadow-lg lg:hover:border-neutral-500 
             lg:hover:shadow-lg rounded-2xl flex flex-col items-center gap-4">
@@ -95,7 +93,7 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
               </div>
             </div>
       
-            {/* OTHER CONTENT */}
+            {/* Brochures */}
             <div className="col-span-12 lg:col-span-4 p-3 border-neutral-700 border lg:rounded-2xl md:rounded-2xl 
             transition-all duration-300 shadow-neutral-900 md:hover:border-neutral-500 md:hover:shadow-lg lg:hover:border-neutral-500 
             lg:hover:shadow-lg rounded-2xl flex flex-col items-center gap-4">
@@ -119,7 +117,7 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
               </div>
             </div>
       
-            {/* COLOR PALETTES */}
+            {/* Color Palettes */}
             <div className="col-span-12 lg:col-span-12 lg:row-span-3 p-3 border-neutral-700 border lg:rounded-2xl md:rounded-2xl 
             transition-all duration-300 shadow-neutral-900 md:hover:border-neutral-500 md:hover:shadow-lg lg:hover:border-neutral-500 
             lg:hover:shadow-lg rounded-2xl flex flex-col items-center gap-4">

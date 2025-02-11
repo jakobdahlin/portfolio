@@ -4,24 +4,22 @@ const ChevronDown: React.FC = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    // Check if the page requires scrolling
     const handleResize = () => {
       const requiresScroll = document.documentElement.scrollHeight > window.innerHeight;
-      setVisible(requiresScroll && window.scrollY <= 10); // Show only if page needs scrolling and user is at the top
+      setVisible(requiresScroll && window.scrollY <= 10);
     };
 
     const handleScroll = () => {
       if (window.scrollY > 10) {
-        setVisible(false); // Hide when scrolling down
+        setVisible(false);
       } else if (document.documentElement.scrollHeight > window.innerHeight) {
-        setVisible(true); // Show if scrolled back to top and scrolling is needed
+        setVisible(true);
       }
     };
 
     window.addEventListener("resize", handleResize);
     window.addEventListener("scroll", handleScroll);
 
-    // Initial check on component mount
     handleResize();
 
     return () => {

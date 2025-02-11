@@ -34,8 +34,8 @@ html::-webkit-scrollbar {
 }
 
 ::selection {
-  background-color: #6d6d6d; /* Custom background color */
-  color: #ffffff; /* Custom text color */
+  background-color: #6d6d6d;
+  color: #ffffff;
 }
 
 h1 {
@@ -62,7 +62,6 @@ h3 {
   inherits: false;
 }
 
-/* SLIDER */
 
 .slidermain {
   margin: 10px;
@@ -83,8 +82,8 @@ h3 {
 }
 
 .checkmark::before {
-  content: "\2713"; /* Unicode equivalent of &#10003; */
-  font-size: 16px; /* Adjust size if needed */
-  color: green; /* Customize the color */
-  margin-right: 8px; /* Optional: Add spacing */
+  content: "\2713";
+  font-size: 16px;
+  color: green;
+  margin-right: 8px;
 }

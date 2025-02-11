@@ -5,15 +5,15 @@ import '@fontsource/kumbh-sans/400.css';
 import '@fontsource/kumbh-sans/700.css';
 
 interface CardProps {
-    className?: string; // Optional className prop for custom styles
-    children?: ReactNode; // Allows passing children
+    className?: string;
+    children?: ReactNode;
   }
 
   const Backgroundcard: React.FC<CardProps> = ({ className, children }) => {
     return (
 <div
   className={`rounded-3xl p-6 mx-1 w-full ${className || ''} mt-[clamp(-6rem,10vw,20rem)]`}
-  style={{ maxWidth: '1440px' }}  // Set your desired max width here
+  style={{ maxWidth: '1440px' }}
 >
     <div
           className="
