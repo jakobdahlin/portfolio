@@ -145,7 +145,7 @@ const Designcard: React.FC<CardProps> = ({ className }) => {
   flex flex-col items-center gap-4 mb-4">
     <h2 className="text-white font-bold text-left">Navigation Bars</h2>
     <div className="w-full flex items-center rounded-xl justify-center h-32 overflow-hidden px-4 md:mx-4 sm:px-10 
-      bg-[url('https://i.ibb.co/spyCsBbS/1958-71.jpg')] bg-cover bg-center">
+      bg-[url('https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302221/1958_71_au0i3z.jpg')] bg-cover bg-center">
     <NavigationBars />
     </div>
     </div>
@@ -156,7 +156,7 @@ const Designcard: React.FC<CardProps> = ({ className }) => {
 <div className="py-2 px-4 col-span-12 lg:col-span-12 border-neutral-700 border 
   lg:rounded-2xl md:rounded-2xl transition-all duration-300 shadow-neutral-900 
   md:hover:border-neutral-500 md:hover:shadow-lg lg:hover:border-neutral-500 
-  lg:hover:shadow-lg rounded-2xl flex flex-col justify-center items-center gap-4">
+  lg:hover:shadow-lg rounded-2xl flex flex-col justify-center items-center gap-4 bg-black">
   <h2 className="text-white font-bold text-center">Infinite Carousel</h2>
   <div className="w-full">
     <Carousel />
@@ -206,7 +206,7 @@ const Designcard: React.FC<CardProps> = ({ className }) => {
       lg:hover:border-neutral-500 lg:hover:shadow-neutral-900 lg:hover:shadow-lg 
       flex flex-col items-center justify-center gap-4 transition-all duration-300 relative overflow-hidden">
       <video className="absolute inset-0 h-full w-full object-cover opacity-70" autoPlay loop muted playsInline>
-      <source src="https://www.dropbox.com/scl/fi/850lvwrfwubqnl4pb7hcl/lights.mp4?rlkey=t1gqxwknhz75rruejzopesdt5&raw=1" type="video/mp4" />
+      <source src="https://res.cloudinary.com/dj10sb6gx/video/upload/v1739302067/lights_vlpply.mp4" type="video/mp4" />
       </video>
       <LoginCard />
     </div>

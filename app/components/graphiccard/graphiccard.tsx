@@ -33,7 +33,7 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
             <div className="py-2 px-3 col-span-12 lg:col-span-12 border-neutral-700 border 
   lg:rounded-2xl md:rounded-2xl transition-all duration-300 shadow-neutral-900 
   md:hover:border-neutral-500 md:hover:shadow-lg lg:hover:border-neutral-500 
-  lg:hover:shadow-lg rounded-2xl flex flex-col justify-center items-center gap-4">
+  lg:hover:shadow-lg rounded-2xl flex flex-col justify-center items-center gap-4 bg-black">
   
   <h2 className="text-white font-bold text-center">Buttons</h2>
   
@@ -48,14 +48,14 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
             lg:hover:shadow-lg rounded-2xl lg:rounded-2xl flex flex-col items-center gap-4">
               <h2 className="text-white font-bold text-left">Business Cards</h2>
               <div className="grid lg:grid-cols-2 sm:grid-cols-2 gap-4 lg:flex-wrap">
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/35aovj3t7jdg6xu668rg8/bc1.jpg?rlkey=1d4auzmpj605jpprja6r0kqh1&raw=1" alt="businesscard" />
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/h5z0tswptf72d7svfkm5i/bc4.jpg?rlkey=2k4xfkpw6c1f0xfpgbmjaz106&raw=1" alt="businesscard" />
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/ug45p6hbveqoqi3087rpf/bc7.jpg?rlkey=02nmdj841hghqlwoeup8sl6j0&raw=1" alt="businesscard" />
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/6qts4zl9yfi3fpgafb1nk/bc8.jpg?rlkey=bn04krpxh609yo8xu3fwnrkhe&raw=1" alt="businesscard" />
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/n4tjwemxu45lwzgavc0zs/bc3.jpg?rlkey=arrg9b7ykea6xcrbacmc9b9fn&raw=1" alt="businesscard" />
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/big9nxjm9bqxssr95pai4/bc2.jpg?rlkey=pfcxbh4xt7nwyhrexqsdvg40f&raw=1" alt="businesscard" />
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/qu30eh3btzzgkv6igq16g/bc5.jpg?rlkey=dg27yilr8aylsrer61bli04b0&raw=1" alt="businesscard" />
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/0egy7it5ke8ip4w8xg4z6/bc6.jpg?rlkey=16okbat57n5rb3psehzxjgypf&raw=1" alt="businesscard" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302118/bc1_wthta3.jpg" alt="businesscard" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302124/bc4_af83hp.jpg" alt="businesscard" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302126/bc7_kvaio1.jpg" alt="businesscard" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302133/bc8_zcfuop.jpg" alt="businesscard" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302118/bc3_dmuk6t.jpg" alt="businesscard" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302118/bc2_jrsmf9.jpg" alt="businesscard" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302125/bc5_zeabs6.jpg" alt="businesscard" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302125/bc6_jbbyue.jpg" alt="businesscard" />
               </div>
             </div>
       
@@ -65,8 +65,8 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
             lg:hover:shadow-lg rounded-2xl flex flex-col items-center gap-4">
               <h2 className="text-white font-bold">Letterheads</h2>
               <div className="grid grid-cols-1 sm:grid-cols-1 gap-4 lg:flex-wrap">
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/cncqj3pazbx0iz4denrs5/letterhead2.jpg?rlkey=lf3ymy5tktxy9gayv674z2yq2&raw=1" alt="letterhead2" />
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/ry152fbkip73peaero88p/letterhead3.jpg?rlkey=k9punyibib1x8bu6x32eqiy8i&raw=1" alt="letterhead3" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302147/letterhead2_bjgya8.jpg" alt="letterhead2" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302148/letterhead3_wgshq3.jpg" alt="letterhead3" />
               </div>
             </div>
       
@@ -76,11 +76,11 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
             lg:hover:shadow-lg rounded-2xl flex flex-col items-center gap-4">
               <h2 className="text-white font-bold">Envelopes</h2>
               <div className="grid lg:grid-cols-1 md:grid-cols-1 gap-4 lg:flex-wrap">
-              <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/4yfn5i2plxhoxt4ms6shh/envelope1.jpg?rlkey=g4s2mr2nkpaap3kdpdrztv47p&raw=1" alt="envelope1" />
-              <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/ix9w8r9cv1nii1gaazgw7/envelope2.jpg?rlkey=giusxse8vumfugexk7f15scil&raw=1" alt="envelope2" />
-              <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/enhap2vyrlfeq49742urg/envelope3.jpg?rlkey=z67jzcbn5l56ezv1naq7x1doc&raw=1" alt="envelope3" />
-              <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/f10f769awifj14sjnbyeh/envelope4.jpg?rlkey=n8frhsl91soql03ufc5kyhkxj&raw=1" alt="envelope4" />
-              <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/r4n93qz0qosnsd2nrbj8u/envelope5.jpg?rlkey=n6s8dv3r6t1dkxuzwc10h0raj&raw=1" alt="envelope5" />
+              <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302136/envelope1_evao1g.jpg" alt="envelope1" />
+              <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302137/envelope2_wfut70.jpg" alt="envelope2" />
+              <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302137/envelope3_z3th3k.jpg" alt="envelope3" />
+              <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302142/envelope4_dhgec4.jpg" alt="envelope4" />
+              <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302143/envelope5_kzqk5p.jpg" alt="envelope5" />
               </div>
             </div>
 
@@ -90,8 +90,8 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
             lg:hover:shadow-lg rounded-2xl flex flex-col items-center gap-4">
               <h2 className="text-white font-bold">Menues</h2>
               <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-4 lg:flex-wrap">
-              <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/j5hordg1tx0eirjurzqoh/MENU1.jpg?rlkey=lreq56ltr3qquxlq9knha3boq&raw=1" alt="menu1" />
-              <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/8trug8vqdqugm941dtfu1/MENU2.jpg?rlkey=0r4ydb5x5uqmihnzvlpluk3fn&raw=1" alt="menu2" />
+              <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302153/MENU1_utzt7t.jpg" alt="menu1" />
+              <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302153/MENU2_egdipl.jpg" alt="menu2" />
               </div>
             </div>
       
@@ -101,8 +101,8 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
             lg:hover:shadow-lg rounded-2xl flex flex-col items-center gap-4">
               <h2 className="text-white font-bold">Brochures</h2>
               <div className="grid grid-cols-1 gap-4 lg:flex-wrap">
-              <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/rkoo3auou2xyz8eew4ax6/brochure1.png?rlkey=lfzgn9oo1q77l948xqa4bskpr&raw=1" alt="nyc-palette" />
-              <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/2dy3rgsadecc6zs1dbr4z/brochure2.png?rlkey=lk6bcfxeh10ukqhufdbhkgw07&raw=1" alt="nyc-palette" />
+              <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302103/brochure1_ldonsh.png" alt="nyc-palette" />
+              <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302104/brochure2_jpbq57.png" alt="nyc-palette" />
               </div>
             </div>
 
@@ -111,9 +111,9 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
             lg:hover:shadow-lg rounded-2xl flex flex-col items-center gap-4">
             <h2 className="text-white font-bold text-left">Album Covers</h2>
               <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 lg:flex-wrap">
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/jer2zscsqnohxkw1qp2tq/album1.png?rlkey=lo51vq8p0zbfrrl237fevlhxn&raw=1" alt="album1" />
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/11o8krvdt9r4bmjnc939c/album2.png?rlkey=eyvxrh0o4vhmtwrrbs9oy78ch&raw=1" alt="album2" />
-                <img className="w-full h-auto" src="https://www.dropbox.com/scl/fi/py9bopox96a6403hzsovj/album3.png?rlkey=7pwdswy0ct9rscp32o14g6k7l&raw=1" alt="album3" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302087/album1_vjcg0i.png" alt="album1" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302088/album2_khqafv.png" alt="album2" />
+                <img className="w-full h-auto" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302088/album3_qmaemw.png" alt="album3" />
 
                 
               </div>
@@ -125,12 +125,12 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
             lg:hover:shadow-lg rounded-2xl flex flex-col items-center gap-4">
               <h2 className="text-white font-bold">Color Palettes</h2>
               <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:flex-wrap">
-                <img className="w-full h-auto rounded-xl" src="https://www.dropbox.com/scl/fi/ydw9uju8quvvyxd8tzpzb/1.png?rlkey=u4yz291h4ctbxte97ct893jt3&raw=1" alt="nyc-palette" />
-                <img className="w-full h-auto rounded-xl" src="https://www.dropbox.com/scl/fi/7sps8h9xb5ps8w4cdd31k/2.png?rlkey=m3kal0uev9mlnd11f7y6xpr1c&raw=1" alt="costarica-palette" />
-                <img className="w-full h-auto rounded-xl" src="https://www.dropbox.com/scl/fi/ge6w2wl5sqarne00pagrl/3.png?rlkey=ettnsb3v8oerqlbk7yjp2iclg&raw=1" alt="nyc-palette" />
-                <img className="w-full h-auto rounded-xl" src="https://www.dropbox.com/scl/fi/dnk1xp9aovkw984xfszqy/4.png?rlkey=oiewdpzih3cmx5ghaw8v1491y&raw=1" alt="costarica-palette" />
-                <img className="w-full h-auto rounded-xl" src="https://www.dropbox.com/scl/fi/sx9jrqz523tkpotpo65fc/5.png?rlkey=ck1gbuydtluucdxei5mq9xnpq&raw=1" alt="nyc-palette" />
-                <img className="w-full h-auto rounded-xl" src="https://www.dropbox.com/scl/fi/f6ogq4870yzh5qzp2fsdi/6.png?rlkey=dwtojoeamtiu27h84an1o4dnu&raw=1" alt="costarica-palette" />
+                <img className="w-full h-auto rounded-xl" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302049/1_xdu8uc.png" alt="nyc-palette" />
+                <img className="w-full h-auto rounded-xl" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302049/2_zfmhqq.png" alt="costarica-palette" />
+                <img className="w-full h-auto rounded-xl" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302049/3_gsj9le.png" alt="nyc-palette" />
+                <img className="w-full h-auto rounded-xl" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302050/4_mdy7ed.png" alt="costarica-palette" />
+                <img className="w-full h-auto rounded-xl" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302050/5_rixswf.png" alt="nyc-palette" />
+                <img className="w-full h-auto rounded-xl" src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302050/6_y5qnus.png" alt="costarica-palette" />
               </div>
             </div>
           </div>
