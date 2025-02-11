@@ -30,6 +30,7 @@ html, body {
   color: #717171;
 }
 
+
 html::-webkit-scrollbar {
   display: none;
 }
