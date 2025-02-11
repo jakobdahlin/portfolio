@@ -11,8 +11,6 @@ import NavigationBars from '../NavigationBars/NavigationBars';
 import CardDesign1 from '../CardDesign1/CardDesign1';
 import CardDesign2 from '../CardDesign2/CardDesign2';
 import Carousel from '../carousel/carousel';
-import Navbar from '../navbar/Navbar';
-
 
 interface CardProps {
     className?: string;
@@ -208,7 +206,7 @@ const Designcard: React.FC<CardProps> = ({ className }) => {
       lg:hover:border-neutral-500 lg:hover:shadow-neutral-900 lg:hover:shadow-lg 
       flex flex-col items-center justify-center gap-4 transition-all duration-300 relative overflow-hidden">
       <video className="absolute inset-0 h-full w-full object-cover opacity-70" autoPlay loop muted playsInline>
-        <source src="/lights.mp4" type="video/mp4" />
+      <source src="https://www.dropbox.com/scl/fi/850lvwrfwubqnl4pb7hcl/lights.mp4?rlkey=t1gqxwknhz75rruejzopesdt5&raw=1" type="video/mp4" />
       </video>
       <LoginCard />
     </div>

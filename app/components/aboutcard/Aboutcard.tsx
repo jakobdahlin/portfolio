@@ -17,7 +17,7 @@ const Aboutcard: React.FC<CardProps> = ({ className }) => {
   <div className="flex justify-center items-center">
     <img 
       className="flex items-center justify-center w-72 sm:max-w-xs md:max-w-sm lg:max-w-md object-cover transition-transform duration-300 lg:hover:scale-105 md:hover:scale-105" 
-      src="/images/portrait.jpg" 
+      src="https://www.dropbox.com/scl/fi/fd8w8iyiwlzhmd49wv72r/portrait.jpg?rlkey=23zngtal1t7d4b6h8z7wuvrxc&raw=1" 
       alt="jakob" 
     />
   </div>
