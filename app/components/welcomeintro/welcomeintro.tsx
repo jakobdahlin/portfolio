@@ -14,10 +14,8 @@ const Welcomecard: React.FC<CardProps> = ({ className }) => {
       <Backgroundcard>
         <div className="w-full max-w-xl px-1">
             <h1 className="text-responsive font-bold text-white py-2">Jakob Dahlin</h1>
-            <p className="tracking-responsive text-white 0 py-4">WEB DESIGN PORTFOLIO</p>
-            <p className="my-12 mx-12">8+ years of experience in web design, specializing in 
-                creating user-friendly websites for clients and affiliate marketing. 
-                Skilled in optimizing UI design to improve SEO and enhance user experience (UX).</p>
+            <p className="tracking-responsive text-white 0 py-4">DESIGN PORTFOLIO</p>
+            <p className="my-12 mx-12">15+ years in graphic design and 10 years in web design, creating marketing materials for both digital and print. Specialized in developing user-friendly websites and web applications with focus on single-page experiences and affiliate marketing blogs. Skilled in UI design optimization to enhance SEO and improve UX. </p>
           </div>
           <Contactbutton />
         </Backgroundcard>
