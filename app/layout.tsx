@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       {
         url: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739300986/jdarch14_vqagqg.jpg",
         width: 1200,
-        height: 630,
+        height: 600,
         alt: "Jakob Dahlin Portfolio Preview",
       },
     ],
