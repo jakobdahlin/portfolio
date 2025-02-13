@@ -1,5 +1,3 @@
-"use client";
-
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import ChevronDown from "./components/ChevronDown/chevrondown";
