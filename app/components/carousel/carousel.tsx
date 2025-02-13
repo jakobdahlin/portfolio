@@ -6,13 +6,11 @@ const Carousel: React.FC = () => {
     "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302073/JAKOBD_W_mlibeo.png",
     "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302079/Pixl_obeirb.png",
     "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302079/Orion_nhytlx.png",
-    "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302074/logo7_dqzcmy.jpg",
     "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302070/CodeProbe_spzysc.png",
     "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302070/Arqitect_s9rwpd.png",
     "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302071/Flareon_jjzfo7.png",
     "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302070/Codera_x62wps.png",
     "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302080/Syncra_rcqh9l.png",
-    "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739302074/logo6_feauck.jpg",
 
   ];
 

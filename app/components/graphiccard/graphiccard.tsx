@@ -31,7 +31,7 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
             <div className="py-2 px-3 col-span-12 lg:col-span-12 border-neutral-700 border 
   lg:rounded-2xl md:rounded-2xl transition-all duration-300 shadow-neutral-900 
   md:hover:border-neutral-500 md:hover:shadow-lg lg:hover:border-neutral-500 
-  lg:hover:shadow-lg rounded-2xl flex flex-col justify-center items-center gap-4 bg-black">
+  lg:hover:shadow-lg rounded-2xl flex flex-col justify-center items-center gap-4">
   
   <h2 className="text-white font-bold text-center">Buttons</h2>
   
