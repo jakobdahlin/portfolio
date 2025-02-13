@@ -1,7 +1,7 @@
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import { Metadata } from "next";
-import ChevronDownWrapper from "./components/ChevronDown/chevrondown"; // Use a client wrapper
+import ChevronDownWrapper from "./components/ChevronDown/chevrondown";
 
 export const metadata: Metadata = {
   title: "Jakob Dahlin Portfolio",
@@ -9,15 +9,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Jakob Dahlin Portfolio",
     description: "Web Design - Graphic Design & Architectural Photography",
+    url: "https://jakobdahlin.vercel.app",
+    siteName: "Jakob Dahlin Portfolio",
     images: [
       {
-        url: "https://jakobdahlin.vercel.app/logos/JDIDWi.png",
+        url: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739300986/jdarch14_vqagqg.jpg",
         width: 1200,
         height: 630,
         alt: "Jakob Dahlin Portfolio Preview",
       },
     ],
-    url: "https://jakobdahlin.vercel.app",
     type: "website",
   },
 };
@@ -34,7 +35,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
-        <ChevronDownWrapper /> {/* Use the wrapper instead of direct import */}
+        <ChevronDownWrapper />
       </body>
     </html>
   );
