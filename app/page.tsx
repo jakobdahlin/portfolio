@@ -4,6 +4,9 @@ import Welcomecard from './components/welcomeintro/welcomeintro';
 
 
 function Page() {
+
+  const currentYear = new Date().getFullYear();
+
   return ( 
   <main>
 
@@ -12,7 +15,7 @@ function Page() {
       <Welcomecard />
     </div>
     </section>
-    <p className="text-neutral-700 text-center py-4">Copyright © 2025 Jakob Dahlin</p>
+    <p className="text-neutral-700 text-center py-4">Copyright © {currentYear} Jakob Dahlin</p>
     </main>
 
 
