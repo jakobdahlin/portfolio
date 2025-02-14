@@ -72,7 +72,7 @@ export default function Page() {
   <span className="tracking-wider">Loading</span>
   <span className="w-6 text-left">{loadingDots}</span>
 </span>
-          <span className="text-gray-400 text-lg mt-2">{`Generating random order... ${countdown}s`}</span>
+          <span className="text-gray-400 text-lg mt-2">{`Building grid... ${countdown}s`}</span>
         </div>
       )}
         <div className="flex justify-center">
