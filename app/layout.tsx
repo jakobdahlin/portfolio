@@ -32,6 +32,7 @@ export default function RootLayout({
     <html lang="en" className="smooth-scroll">
       <meta name="theme-color" content="#0c0c0c" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       <body>
         <Navbar />
         {children}
