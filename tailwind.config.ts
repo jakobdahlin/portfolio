@@ -16,6 +16,7 @@ export default {
       responsive: 'clamp(0px, 1vw, 15px)',
     },
     extend: {
+    
       keyframes: {
         'bounce-slow': {
           '0%, 100%': { transform: 'translateY(0)' },

@@ -18,12 +18,12 @@ const Navbar = () => {
     <nav className="w-full max-w-screen-lg mx-auto px-8 mt-5 mb-4">
       <div className="flex items-center justify-between mx-auto max-w-screen-lg">
         <a href="/">
-        <div className="sm:hidden flex items-center">
+        <div className="md:hidden flex items-center">
           <img src="/logos/JDIDWi.png" alt="Logo" className="h-8" />
         </div>
         </a>
 
-        <div className="hidden sm:flex items-center gap-32 flex-1">
+        <div className="hidden md:flex items-center gap-32 flex-1">
           <Link href="/about" className="text-white hover:text-neutral-500">
             About
           </Link>
@@ -33,12 +33,12 @@ const Navbar = () => {
         </div>
 
         <a href="/">
-          <div className="hidden sm:flex items-center transform duration-200 hover:rotate-12 justify-center cursor-pointer">
+          <div className="hidden md:flex mx-4 items-center transform duration-200 hover:rotate-12 justify-center cursor-pointer">
             <img src="/logos/JDIDWi.png" alt="Logo" className="h-8" />
           </div>
         </a>
 
-        <div className="hidden sm:flex items-center gap-32 flex-1 justify-end">
+        <div className="hidden md:flex items-center gap-28 flex-1 justify-end">
           <Link href="/graphicdesign" className="text-white hover:text-neutral-500">
             Graphic Design
           </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
           </Link>
         </div>
 
-        <div className="sm:hidden">
+        <div className="md:hidden">
           <button
             onClick={toggleMenu}
             className="focus:outline-none text-white"
@@ -82,32 +82,32 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="sm:hidden text-center">
+        <div className="md:hidden text-center">
           <div className="flex flex-col items-start gap-6 p-4 text-white">
             <Link
               href="/about"
-              className="w-full p-2 rounded animate-pulse"
+              className="w-full p-2 rounded sm:animate-pulse hover:text-neutral-400"
               onClick={closeMenu}
             >
               About
             </Link>
             <Link
               href="/webdesign"
-              className="w-full p-2 rounded animate-pulse"
+              className="w-full p-2 rounded animate-pulse hover:text-neutral-400"
               onClick={closeMenu}
             >
               Web Design
             </Link>
             <Link
               href="/graphicdesign"
-              className="w-full p-2 rounded animate-pulse"
+              className="w-full p-2 rounded animate-pulse hover:text-neutral-400"
               onClick={closeMenu}
             >
               Graphic Design
             </Link>
             <Link
               href="/photography"
-              className="w-full p-2 rounded animate-pulse"
+              className="w-full p-2 rounded animate-pulse hover:text-neutral-400"
               onClick={closeMenu}
             >
               Photography
