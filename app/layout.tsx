@@ -6,6 +6,9 @@ import ChevronDownWrapper from "./components/ChevronDown/chevrondown";
 export const metadata: Metadata = {
   title: "Jakob Dahlin Portfolio",
   description: "Web Design - Graphic Design & Architectural Photography",
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     title: "Jakob Dahlin Portfolio",
     description: "Web Design - Graphic Design & Architectural Photography",
