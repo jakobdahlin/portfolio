@@ -13,7 +13,7 @@ interface CardProps {
     return (
 <div
   className={`rounded-3xl p-6 mx-1 w-full ${className || ''} mt-[clamp(-6rem,10vw,20rem)]`}
-  style={{ maxWidth: '1440px' }}
+  style={{ maxWidth: className?.includes("max-w-none") ? "none" : "1440px" }}
 >
     <div
           className="
