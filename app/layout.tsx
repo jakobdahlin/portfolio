@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "Jakob Dahlin Portfolio",
     images: [
       {
-        url: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739300986/jdarch14_vqagqg.jpg",
+        url: "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500126/JD__0093_fhwgpq.jpg",
         width: 1200,
         height: 600,
         alt: "Jakob Dahlin Portfolio Preview",
