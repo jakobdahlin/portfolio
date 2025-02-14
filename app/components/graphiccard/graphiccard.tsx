@@ -33,7 +33,7 @@ const Graphiccard: React.FC<CardProps> = ({ className }) => {
   md:hover:border-neutral-500 md:hover:shadow-lg lg:hover:border-neutral-500 
   lg:hover:shadow-lg rounded-2xl flex flex-col justify-center items-center gap-4">
   
-  <h2 className="text-white font-bold text-center">Buttons</h2>
+  <h2 className="text-white font-bold text-center">Logotypes</h2>
   
   <div className="w-full px-4">
     <Carousel />
