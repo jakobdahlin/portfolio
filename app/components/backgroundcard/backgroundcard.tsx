@@ -36,7 +36,7 @@ interface CardProps {
     bg-[linear-gradient(145deg,_rgba(100,100,100,1),_rgba(50,50,50,1),_rgba(38,38,38,1))]"
           />
           {/* Neutral-800 foreground */}
-          <div className="absolute inset-[1px] bg-neutral-800 rounded-3xl pointer-events-none" />
+          <div className="absolute inset-[1px] bg-neutral-900 rounded-3xl pointer-events-none" />
           <div className="relative z-10 w-full">{children}</div>
           </div>
         </div>

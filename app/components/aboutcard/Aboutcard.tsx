@@ -13,10 +13,11 @@ const Aboutcard: React.FC<CardProps> = ({ className }) => {
     return (
  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 z-10">
 
- <div className="lg:row-span-1 p-3">              {/* BOX 1 */}
-  <div className="flex justify-center items-center">
+ <div className="lg:row-span-1 w-full">              {/* BOX 1 */}
+  <div className="items-left w-full">
     <img 
-      className="flex items-center justify-center w-72 sm:max-w-xs md:max-w-sm lg:max-w-md object-cover transition-transform duration-300 lg:hover:scale-105 md:hover:scale-105" 
+      className="flex items-center justify-center object-cover 
+      rounded-xl border border-neutral-700 bg-neutral-800 w-full" 
       src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739300991/portrait_nbyrck.jpg" 
       alt="jakob" 
     />

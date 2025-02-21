@@ -40,7 +40,7 @@ interface CardProps {
           "
         />
 
-        <div className="absolute inset-[1px] bg-neutral-800 rounded-xl pointer-events-none 
+        <div className="absolute inset-[1px] bg-neutral-900 rounded-xl pointer-events-none 
             transition-shadow duration-100 z-10 lg:animate-slowPulse
       " />
 

@@ -18,7 +18,7 @@ html, body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   font-family: 'Kumbh Sans', sans-serif;
-  background: radial-gradient(circle at top, #414141, #212121, #0c0c0c);
+  background: radial-gradient(circle at top, #232323, #101010, #030303);
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
