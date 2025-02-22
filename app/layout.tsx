@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 import { Metadata } from "next";
@@ -38,6 +39,7 @@ export default function RootLayout({
       <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       <body>
         <Navbar />
+        <Analytics />
         {children}
         <ChevronDownWrapper />
       </body>
