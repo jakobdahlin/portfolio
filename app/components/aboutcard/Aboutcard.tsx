@@ -17,7 +17,7 @@ const Aboutcard: React.FC<CardProps> = ({ className }) => {
   <div className="items-left w-full">
     <img 
       className="flex items-center justify-center object-cover 
-      rounded-xl border border-neutral-700 bg-neutral-800 w-full" 
+      rounded-2xl border border-neutral-700 bg-neutral-800 w-full" 
       src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739300991/portrait_nbyrck.jpg" 
       alt="jakob" 
     />
@@ -25,9 +25,9 @@ const Aboutcard: React.FC<CardProps> = ({ className }) => {
 </div>
 
 
-<div className="lg:row-span-2 p-3 border border-neutral-800 
+<div className="lg:row-span-2 p-3 border rounded-2xl border-neutral-800 
   lg:border lg:border-neutral-700 lg:rounded-xl 
-  md:border md:rounded-2xl md:border-neutral-700 
+  md:border md:rounded-xl md:border-neutral-700
   transition-all duration-300 shadow-neutral-900 md:hover:border-neutral-500 md:hover:shadow-neutral-900 md:hover:shadow-lg 
   lg:hover:border-neutral-500 lg:hover:shadow-neutral-900 lg:hover:shadow-lg">           {/* BOX 2 */}
     <h2 className="text-white text-left p-2">

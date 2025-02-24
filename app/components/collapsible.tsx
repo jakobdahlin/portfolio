@@ -24,8 +24,8 @@ export function Collapsible({ title, children, defaultOpen = false, className = 
         {isOpen ? <ChevronUp className="h-5 w-5" /> : <ChevronDown className="h-5 w-5" />}
       </button>
 
-      <div className={`w-full transition-all duration-300 ${isOpen ? "block" : "hidden"}`}>
-        <div className="w-full px-6 py-4 rounded-b-lg text-netural-700">{children}</div>
+      <div className={`w-full transition-all duration-300 ${isOpen ? "block" : "hidden"} ${className}`}>
+        <div className="w-full px-6 py-4 rounded-b-lg text-neutral-700">{children}</div>
       </div>
     </div>
   );

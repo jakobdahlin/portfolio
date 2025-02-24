@@ -25,27 +25,27 @@ const experiences = [
     description: [
       "I am expanding my knowledge in web design and UI/UX design, while integrating these skills into my creative work as an architectural photographer. This expansion allows me to create responsive, user-friendly websites that reflect both functionality and aesthetics.",
       {
-        title: "Web Design & React",
+        period: "Web Design & React",
         content:
           "Build websites using HTML5, CSS, Tailwind CSS, and React, focusing on scalable, intuitive user interfaces.",
       },
       {
-        title: "UI/UX Design",
+        period: "UI/UX Design",
         content:
           "Apply principles of user-centered design to create seamless and engaging experiences. Use wireframing, prototyping, and usability testing to ensure the best possible user outcomes.",
       },
       {
-        title: "SEO",
+        period: "SEO",
         content:
           "Implement SEO practices to improve website visibility and drive organic traffic with tools like keyword research, Google Search Console and Smartlook.",
       },
       {
-        title: "Graphic Design",
+        period: "Graphic Design",
         content:
           "Design digital assets and create cohesive brand identities that enhance user experience and strengthen brand presence.",
       },
       {
-        title: "Project Management",
+        period: "Project Management",
         content: "Leverage my organizational skills from architectural photography to build and manage web projects.",
       },
     ],
@@ -101,22 +101,22 @@ const education = [
 
 export function Resume() {
   return (
-    <div className=" text-netural-600 text-left">
+    <div className="text-netural-600 text-left">
       <div className="mx-auto w-full px-4 py-8">
         <div className="grid gap-8 md:grid-cols-2">
           {/* Sidebar */}
           <aside className="space-y-6">
             <div className="space-y-2">
               <h1 className="text-2xl text-left font-bold text-white">JAKOB DAHLIN</h1>
-              <p className="text-sm leading-relaxed text-netural-600">
+              <p className="text-sm leading-relaxed text-neutral-600">
                 Architectural photographer, Web designer, SEO strategist and graphic designer based in New York, driven
                 by my passion for creativity, mentoring, and development.
               </p>
             </div>
 
-            <div className="relative h-48 w-48 overflow-hidden rounded-xl">
+            <div className="relative w-48 h-48 overflow-hidden rounded-full ">
               <Image
-                src="https://res.cloudinary.com/dj10sb6gx/image/upload/v1739300991/portrait_nbyrck.jpg"
+                src="https://i.ibb.co/QvVx3JR8/JDPortrait.jpg"
                 alt="Profile"
                 fill
                 className="object-cover object-center"
@@ -139,11 +139,11 @@ export function Resume() {
           {/* Main Content */}
           <main className="space-y-6">
             <Collapsible title="Experience" defaultOpen={true} className="text-xl">
-              <div className="space-y-4 text-lg">
+              <div className="space-y-4">
                 {experiences.map((exp, index) => (
-                  <Collapsible key={index} title={exp.title} defaultOpen={false}>
+                  <Collapsible key={index} title={exp.title} defaultOpen={false} className="text-lg">
                     <div className="space-y-2">
-                      <p className="text-sm text-netural-600">
+                      <p className="text-lg text-white font-bold">
                         {exp.period} – {exp.location}
                       </p>
                       <div className="space-y-4">
@@ -157,7 +157,7 @@ export function Resume() {
                           }
                           return (
                             <div key={idx} className="space-y-1">
-                              <h4 className="font-semibold text-white">{item.title}:</h4>
+                              <h4 className="font-semibold text-sm text-neutral-400">{item.period}:</h4>
                               <p className="text-sm leading-relaxed">{item.content}</p>
                             </div>
                           )
@@ -170,33 +170,31 @@ export function Resume() {
               </div>
             </Collapsible>
 
-            <Collapsible title="Education" defaultOpen={true} className="text-xl">
-              <div className="space-y-4">
-                {education.map((edu, index) => (
-                  <div key={index} className="space-y-2">
-                    <h3 className="text-lg font-semibold text-white">{edu.title}</h3>
-                    <p className="text-sm text-white font-bold flex">
-                    </p>
-                    <p className="text-sm text-white font-bold inline-flex">
-                        Major: <span className="text-sm text-neutral-600">{edu.major}</span>
-                    </p>
-                    <p className="text-sm text-white font-bold inline-flex">
-                        Degree: <span className="text-sm text-neutral-600">{edu.degree}</span>
-                    </p>
-                    <p className="text-sm text-white font-bold inline-flex">
-                        Location: <span className="text-sm text-neutral-600">{edu.location}</span>
-                    </p>
-                    <p className="text-sm text-white font-bold inline-flex">
-                        Description: <span className="text-sm text-neutral-600">{edu.description}</span>
-                    </p>
-                    <p className="text-sm text-white font-bold inline-flex">
-                        Period: <span className="text-sm text-neutral-600">{edu.period}</span>
-                    </p>
+            <div className="mb-10">
+  <Collapsible title="Education" defaultOpen={true} className="text-xl pb-10">
+    <div className="space-y-4">
+      {education.map((edu, index) => (
+        <div key={index} className="space-y-2 border border-neutral-700 bg-neutral-900 
+        rounded-lg p-4">
+          <h3 className="text-lg font-semibold text-white">{edu.title}</h3>
+          <p className="text-sm text-neutral-400 font-bold">Major:</p>
+          <p className="text-sm text-neutral-600">{edu.major}</p>
+          <p className="text-sm text-neutral-400 font-bold">Degree:</p>
+          <p className="text-sm text-neutral-600">{edu.degree}</p>
+          <p className="text-sm text-neutral-400 font-bold">Location:</p>
+          <p className="text-sm text-neutral-600">{edu.location}</p>
+          <p className="text-sm text-neutral-400 font-bold">Description:</p>
+          {edu.description.map((desc, i) => (
+            <p key={i} className="text-sm text-neutral-600">{desc}</p>
+          ))}
+          <p className="text-sm text-neutral-400 font-bold">Period:</p>
+          <p className="text-sm text-neutral-600">{edu.period}</p>
+        </div>
+      ))}
+    </div>
+  </Collapsible>
+</div>
 
-                  </div>
-                ))}
-              </div>
-            </Collapsible>
           </main>
         </div>
       </div>
