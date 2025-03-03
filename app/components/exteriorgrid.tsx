@@ -53,24 +53,23 @@ const images = [
   
 ];
 
-export default function ExteriorGrid() {
-    return (
-      <div className="w-full max-w-[1600px] mx-auto px-2">
-        <div className="columns-2 sm:columns-2 md:columns-5 lg:columns-5 xl:columns-5 2xl:columns-5">
-          {images.map((src, index) => (
-            <div key={index} className="mb-6 break-inside-avoid overflow-hidden rounded-xl">
-              <Image
-                src={src}
-                alt={`Image ${index + 1}`}
-                width={500} 
-                height={0}
-                className="w-full h-auto rounded-xl object-cover 
-                transition-transform duration-200 transform hover:scale-95"
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-    );
-  }
-  
+export default function MasonryGrid() {
+  return (
+<div className="min-[420px]:columns-2 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-5 2xl:columns-5 lg:mb-52">
+  {images.map((src, index) => (
+    <div key={index} className="relative break-inside-avoid overflow-hidden rounded-xl">
+      <div className="relative w-full h-auto">
+      <Image
+        src={src}
+        alt={`Image ${index + 1}`}
+        width={1000}
+        height={0}
+        className="w-full h-auto rounded-xl object-cover transition-transform mb-4 
+        duration-200 transform hover:scale-95"
+      />
+    </div>
+    </div>
+  ))}
+</div>
+  );
+}

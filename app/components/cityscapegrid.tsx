@@ -4,6 +4,7 @@ const images = [
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739499933/IMG_6090_gul997.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500103/IMG_9325_qjhwk1.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500054/IMG_7656_usydbs.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1740705840/2020-Bridge_kboj1t.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739499842/IMG_2662_cxqkxv.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739499504/IMG_2660_2_xqdhau.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739499402/IMG_2642_tl2eeb.jpg",
@@ -24,6 +25,7 @@ const images = [
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739300988/jdimage5_jwgrss.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739498122/IMG_0147_nbo1ka.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739498231/IMG_1958_sqezip.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1740705840/IMG_2100_5x7empty_xlmb9j.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739498349/IMG_2017_x7gdwd.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739498838/IMG_2165_rt9eil.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739498839/IMG_2182_tw7lrz.jpg",
@@ -45,6 +47,7 @@ const images = [
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500227/JD__3540_sv2io0.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500288/JD__7143_ie2ot0.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500047/IMG_7571_wlo9xp.jpg",
+  "https://res.cloudinary.com/dj10sb6gx/image/upload/v1740705840/IMG_0017-copy_y6o751.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500097/IMG_9281_y9rnnu.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500111/IMG_9439_zuvpir.jpg",
   "https://res.cloudinary.com/dj10sb6gx/image/upload/v1739500287/JD__7128_l4yort.jpg",
@@ -76,23 +79,23 @@ const images = [
 
 ];
 
-export default function CityscapeGrid() {
+export default function InteriorGrid() {
   return (
-    <div className="w-full max-w-[1600px] mx-auto px-2">
-      <div className="columns-2 sm:columns-3 md:columns-4 lg:columns-5 xl:columns-5 2xl:columns-5">
-        {images.map((src, index) => (
-          <div key={index} className="mb-6 break-inside-avoid overflow-hidden rounded-xl">
-            <Image
-              src={src}
-              alt={`Image ${index + 1}`}
-              width={500} 
-              height={0}
-              className="w-full h-auto rounded-xl object-cover 
-              transition-transform duration-200 transform hover:scale-95"
-            />
-          </div>
-        ))}
-      </div>
+<div className="min-[420px]:columns-2 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-5 2xl:columns-5 lg:mb-52">
+  {images.map((src, index) => (
+    <div key={index} className="relative break-inside-avoid overflow-hidden rounded-xl">
+      <div className="relative w-full h-auto">
+      <Image
+        src={src}
+        alt={`Image ${index + 1}`}
+        width={1000}
+        height={0}
+        className="w-full h-auto rounded-xl object-cover transition-transform mb-4 
+        duration-200 transform hover:scale-95"
+      />
     </div>
+    </div>
+  ))}
+</div>
   );
 }

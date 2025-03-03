@@ -34,7 +34,8 @@ const Navbar = () => {
 
         <a href="/">
           <div className="hidden md:flex mx-4 items-center transform duration-200 hover:rotate-12 justify-center cursor-pointer">
-            <img src="/logos/JDIDWi.png" alt="Logo" className="h-8" />
+            <img src="/logos/JDIDWi.png" alt="Logo" className="h-8 transition-transform 
+      duration-100 transform lg:hover:scale-95" />
           </div>
         </a>
 

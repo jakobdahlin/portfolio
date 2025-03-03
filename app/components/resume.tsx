@@ -101,35 +101,35 @@ const education = [
 
 export function Resume() {
   return (
-    <div className="text-netural-600 text-left">
+    <div className="text-netural-500 text-left">
       <div className="mx-auto w-full px-4 py-8">
         <div className="grid gap-8 md:grid-cols-2">
           {/* Sidebar */}
           <aside className="space-y-6">
             <div className="space-y-2">
               <h1 className="text-2xl text-left font-bold text-white">JAKOB DAHLIN</h1>
-              <p className="text-sm leading-relaxed text-neutral-600">
+              <p className="text-sm leading-relaxed text-neutral-500">
                 Architectural photographer, Web designer, SEO strategist and graphic designer based in New York, driven
                 by my passion for creativity, mentoring, and development.
               </p>
             </div>
 
             <div className="relative w-48 h-48 overflow-hidden rounded-full ">
-              <Image
-                src="https://i.ibb.co/QvVx3JR8/JDPortrait.jpg"
-                alt="Profile"
-                fill
-                className="object-cover object-center"
-                priority
-              />
+            <Image
+            src="https://i.ibb.co/QvVx3JR8/JDPortrait.jpg"
+            alt="Jakob Dahlin"
+            width={300}
+            height={300}
+            className="mx-auto rounded-full border-4 border-white shadow-2xl shadow-black"
+          />
             </div>
 
             {Object.entries(skills).map(([title, skillList]) => (
               <Collapsible key={title} title={title} defaultOpen={true} className="text-xl">
                 {/* All collapsibles here start as closed */}
-                <ul className="space-y-1 text-sm">
+                <ul className="space-y-1 text-sm ">
                   {skillList.map((skill) => (
-                    <li key={skill} className="hover:text-neutral-300 transition-colors duration-100">{skill}</li>
+                    <li key={skill} className="hover:text-neutral-300 text-neutral-500 transition-colors duration-100">{skill}</li>
                   ))}
                 </ul>
               </Collapsible>
@@ -146,7 +146,7 @@ export function Resume() {
                       <p className="text-lg text-white font-bold">
                         {exp.period} – {exp.location}
                       </p>
-                      <div className="space-y-4">
+                      <div className="space-y-4 text-neutral-500">
                         {exp.description.map((item, idx) => {
                           if (typeof item === "string") {
                             return (
@@ -157,7 +157,7 @@ export function Resume() {
                           }
                           return (
                             <div key={idx} className="space-y-1">
-                              <h4 className="font-semibold text-sm text-neutral-400">{item.period}:</h4>
+                              <h4 className="font-semibold text-sm text-neutral-300">{item.period}:</h4>
                               <p className="text-sm leading-relaxed">{item.content}</p>
                             </div>
                           )
@@ -177,18 +177,18 @@ export function Resume() {
         <div key={index} className="space-y-2 border border-neutral-700 bg-neutral-900 
         rounded-lg p-4">
           <h3 className="text-lg font-semibold text-white">{edu.title}</h3>
-          <p className="text-sm text-neutral-400 font-bold">Major:</p>
-          <p className="text-sm text-neutral-600">{edu.major}</p>
-          <p className="text-sm text-neutral-400 font-bold">Degree:</p>
-          <p className="text-sm text-neutral-600">{edu.degree}</p>
-          <p className="text-sm text-neutral-400 font-bold">Location:</p>
-          <p className="text-sm text-neutral-600">{edu.location}</p>
-          <p className="text-sm text-neutral-400 font-bold">Description:</p>
+          <p className="text-sm text-neutral-300 font-bold">Major:</p>
+          <p className="text-sm text-neutral-500">{edu.major}</p>
+          <p className="text-sm text-neutral-300 font-bold">Degree:</p>
+          <p className="text-sm text-neutral-500">{edu.degree}</p>
+          <p className="text-sm text-neutral-300 font-bold">Location:</p>
+          <p className="text-sm text-neutral-500">{edu.location}</p>
+          <p className="text-sm text-neutral-300 font-bold">Description:</p>
           {edu.description.map((desc, i) => (
-            <p key={i} className="text-sm text-neutral-600">{desc}</p>
+            <p key={i} className="text-sm text-neutral-500">{desc}</p>
           ))}
-          <p className="text-sm text-neutral-400 font-bold">Period:</p>
-          <p className="text-sm text-neutral-600">{edu.period}</p>
+          <p className="text-sm text-neutral-300 font-bold">Period:</p>
+          <p className="text-sm text-neutral-500">{edu.period}</p>
         </div>
       ))}
     </div>

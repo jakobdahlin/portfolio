@@ -35,23 +35,23 @@ const Designcard: React.FC<CardProps> = ({ className }) => {
   lg:hover:border-neutral-500 lg:hover:shadow-neutral-900 lg:hover:shadow-lg 
   flex flex-col items-center gap-4 transition-all duration-300 pb-6">
      <h2 className="text-white font-bold">Front-End Dev</h2>
-     <h3 className="text-neutral-500 font-bold">CORE TECHNOLOGIES</h3>
+     <h3 className="text-neutral-400 font-bold">CORE TECHNOLOGIES</h3>
      <ul className="list-none text-center">
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">HTML</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">CSS</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">JavaScript</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">TypeScript</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">HTML</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">CSS</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">JavaScript</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">TypeScript</li>
     </ul>
-    <h3 className="text-neutral-500 font-bold">FRAMEWORKS</h3>
+    <h3 className="text-neutral-400 font-bold">FRAMEWORKS</h3>
      <ul className="list-none text-center">
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">React</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Next.js</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">React</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Next.js</li>
     </ul>
-    <h3 className="text-neutral-500 font-bold">STYLING & ANIMATION</h3>
+    <h3 className="text-neutral-400 font-bold">STYLING & ANIMATION</h3>
      <ul className="list-none text-center">
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Tailwind CSS</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">CSS Modules</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Framer Motion</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Tailwind CSS</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">CSS Modules</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Framer Motion</li>
     </ul>
   </div>
   
@@ -60,24 +60,23 @@ const Designcard: React.FC<CardProps> = ({ className }) => {
   lg:hover:border-neutral-500 lg:hover:shadow-neutral-900 lg:hover:shadow-lg 
   flex flex-col items-center gap-4 transition-all duration-300 pb-6">
      <h2 className="text-white font-bold">Development Tools</h2>
-     <h3 className="text-neutral-500 font-bold">VERSION CONTROL & DEPLOYMENT</h3>
+     <h3 className="text-neutral-400 font-bold">VERSION CONTROL & DEPLOYMENT</h3>
      <ul className="list-none text-center">
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Github</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Github Actions</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Vercel (v0.dev)</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Github</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Vercel (v0.dev)</li>
     </ul>
-    <h3 className="text-neutral-500 font-bold">IDE & PLATFORMS</h3>
+    <h3 className="text-neutral-400 font-bold">IDE & PLATFORMS</h3>
      <ul className="list-none text-center">
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Visual Studio Code</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Adobe Dreamweaver</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Rapidweaver</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">CodePen</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Parallels Desktop</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Visual Studio Code</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Adobe Dreamweaver</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Rapidweaver</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">CodePen</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Parallels Desktop</li>
     </ul>
-    <h3 className="text-neutral-500 font-bold">PROJECT MANAGEMENT</h3>
+    <h3 className="text-neutral-400 font-bold">PROJECT MANAGEMENT</h3>
      <ul className="list-none text-center">
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Trello</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Asana</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Trello</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Asana</li>
     </ul>
   </div>
 
@@ -86,23 +85,23 @@ const Designcard: React.FC<CardProps> = ({ className }) => {
   lg:hover:border-neutral-500 lg:hover:shadow-neutral-900 lg:hover:shadow-lg 
   flex flex-col items-center gap-4 transition-all duration-300 pb-6">
      <h2 className="text-white font-bold">Design UI/UX</h2>
-     <h3 className="text-neutral-500 font-bold">DESIGN TOOLS</h3>
+     <h3 className="text-neutral-400 font-bold">DESIGN TOOLS</h3>
      <ul className="list-none text-center">
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Adobe Photoshop</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Adobe Illustrator</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Figma</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Keynote</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Canva</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">InVision</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Adobe Photoshop</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Adobe Illustrator</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Figma</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Keynote</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Canva</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">InVision</li>
     </ul>
-    <h3 className="text-neutral-500 font-bold">WEB & DIGITAL DESIGN TOOLS</h3>
+    <h3 className="text-neutral-400 font-bold">WEB & DIGITAL DESIGN TOOLS</h3>
      <ul className="list-none text-center">
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Visual Studio Code</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Adobe Dreamweaver</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Rapidweaver</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">CodePen</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Microsoft Office Suite</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Pages, Numbers, Keynote</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Visual Studio Code</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Adobe Dreamweaver</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Rapidweaver</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">CodePen</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Microsoft Office Suite</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Pages, Numbers, Keynote</li>
     </ul>
   </div>
   
@@ -111,31 +110,30 @@ const Designcard: React.FC<CardProps> = ({ className }) => {
   lg:hover:border-neutral-500 lg:hover:shadow-neutral-900 lg:hover:shadow-lg 
   flex flex-col items-center gap-4 transition-all duration-300 pb-6">
 <h2 className="text-white font-bold">Other</h2>
-     <h3 className="text-neutral-500 font-bold">OTHER TECHNICAL SKILLS</h3>
+     <h3 className="text-neutral-400 font-bold">OTHER TECHNICAL SKILLS</h3>
      <ul className="list-none text-center">
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">API Integration</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Responsive Design</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Performance Optimization</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Wordpress (Elementor, Gutenberg)</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Affiliate Link Tracking</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Monetization Strategies</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Responsive Design</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Performance Optimization</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Wordpress (Elementor, Gutenberg)</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Affiliate Link Tracking</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Monetization Strategies</li>
     </ul>
-    <h3 className="text-neutral-500 font-bold">SEO & ANALYTICS</h3>
+    <h3 className="text-neutral-400 font-bold">SEO & ANALYTICS</h3>
      <ul className="list-none text-center">
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Keyword Research</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Competitive Analysis</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">On-Page & Off-Page SEO</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Affiliate Marketing SEO</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Google Search Console</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Google Analytics</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Keyword Research</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Competitive Analysis</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">On-Page & Off-Page SEO</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Affiliate Marketing SEO</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Google Search Console</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Google Analytics</li>
     </ul>
-    <h3 className="text-neutral-500 font-bold">UX & SOFT SKILLS</h3>
+    <h3 className="text-neutral-400 font-bold">UX & SOFT SKILLS</h3>
      <ul className="list-none text-center">
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Visual Communication</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Attention to Detail</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Storytelling</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Time Management</li>
-    <li className="hover:text-white text-neutral-600 text-center transition-all duration-300 transform hover:scale-110">Client Communication</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Visual Communication</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Attention to Detail</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Storytelling</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Time Management</li>
+    <li className="hover:text-white text-neutral-600 text-center transition-all duration-200 transform hover:scale-110">Client Communication</li>
     </ul>
   </div>
   </div>

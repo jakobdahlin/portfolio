@@ -12,7 +12,7 @@ const Welcomecard: React.FC<CardProps> = ({ className }) => {
     return (
       <div className="flex flex-col justify-center items-center text-center relative z-10">
       <Backgroundcard>
-        <div className="w-full max-w-xl px-1">
+        <div className="w-full max-w-4xl">
             <h1 className="text-responsive font-bold text-white py-2">Jakob Dahlin</h1>
             <p className="tracking-responsive text-white py-4">DESIGN PORTFOLIO</p>
             
